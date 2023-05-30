@@ -43,9 +43,12 @@ color: var(--main-content-color);
     text-transform: uppercase;
     color: var(--main-text-color);
     }
-
+1px solid #e7e9fc;
     /*---header-menu---*/
-
+.header-boss{border: bottom 1px;solid:#e7e9fc;}
+.boss-conteiner{
+    display: flex;
+}
 
 .header-menu {
     font-weight: 500;
@@ -237,4 +240,8 @@ color: var(--main-content-color);
         letter-spacing: 0.02em;
         color:var(--main-text-color);
 
+}
+/*-----img --*/
+img{
+    display: block;
 }
