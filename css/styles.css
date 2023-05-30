@@ -55,8 +55,10 @@ color: var(--main-content-color);
 }
 .container{
     width: 1158px;
-    margin:0px;
-padding: 0px 15px;
+padding-left: 15px; 
+padding-right: 15px;
+
+margin: 0px auto;
 }
 
 .header-navigation{
@@ -74,9 +76,13 @@ gap: 40px;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
-    text-decoration: none;
+    text-decoration: none;}
+.menu-list{
 
-    padding: 24px;0px;
+
+     padding-top: 24px;
+     padding-bottom: 24px;
+   
 }
 
 .header-menu:hover {
