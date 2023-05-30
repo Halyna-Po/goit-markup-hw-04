@@ -109,12 +109,12 @@ gap: 40px;}
     color: var(--main-content-color);
 }
 
-.contact-list :hover {
-    color: var(--main-button-color);
+.contact-list:hover {
+    color: var(--main-background-color);
 }
 
 .contact-list:focus {
-    color: var(--main-button-color);
+    color: var(--main-background-color);
 }
 
 
