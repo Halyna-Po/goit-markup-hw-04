@@ -70,20 +70,19 @@ display: flex;
 gap: 40px;}
 
 
-.header-menu {
-    font-weight: 500;
+.header-menu{
+  font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
-    text-decoration: none;}
-.menu-list{
+    text-decoration: none;
+          padding-top: 24px;
+          padding-bottom: 24px;}
 
-
-     padding-top: 24px;
-     padding-bottom: 24px;
+    .menu-list{
    
-}
+    }
 
 .header-menu:hover {
     color: var(--main-button-color);
@@ -146,7 +145,7 @@ gap: 40px;}
     min-width: 169px;
     height: 56px;
     /*для вимкнення стандартного оформлення кнопки*/
-    border: none;
+    border:none;
     background-color:var(--main-background-color);
     border-radius: 4px;
     cursor: pointer;
