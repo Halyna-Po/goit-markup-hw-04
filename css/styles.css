@@ -23,6 +23,22 @@ color: var(--main-content-color);
     text-decoration: none;
     list-style: none;
 }
+/*----------обнуляем-отступ--------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
 /*------логотип------*/
 .logo{
     font-family: "Raleway", sans-serif;
@@ -168,14 +184,13 @@ gap: 40px;}
 
 /*-----------MAIN-index-----------*/
 
-.working {
-        font-weight: 600;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-    
-        color:var(--main-text-color);
+/*-----------скрыть-заголовок-----------*/
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
 }
+/*------------------------------*/
+
 .title-list {
     font-weight: 500;
         font-size: 20px;
@@ -292,4 +307,24 @@ color: var(--main-content-color);
 /*-----img --*/
 img{
     display: block;
+}
+/*-----друга-секция--*/
+.work{
+ padding-top: 120px;
+ padding-bottom: 120px;
+}
+.list-item{
+
+    display: flex;
+    /*-----визначення розмірів відступів між елементами списку*/
+    gap: 24px;
+}
+.team-list{
+/*--Для першого елементу списку в класі заданий стиль width: calc((100% - 72px) / 4);
+    для визначення ширини пункту списку (від загальної ширини екрану віднімаємо суму відступів між пунктами і ділимо це на кількість пунктів списку) (можна також використовувати width calc((100% - 3 * 24px) / 4) або flex-basis: calc((100% - 3 * 24px) / 4) або flex-basis: calc((100% - 72px) / 4))*/
+    width: calc((100% - 72px) / 4);
+}
+.title-list{
+    /*----визначення відступу між заголовком і параграфом*/
+    margin-bottom: 8px;
 }
