@@ -58,7 +58,7 @@ color: var(--main-content-color);
 padding-left: 15px; 
 padding-right: 15px;
 
-margin: 0px auto;
+margin: 0px;
 }
 
 .header-navigation{
@@ -116,6 +116,8 @@ gap: 40px;}
 .hero {
 
     background: var(--main-text-color);
+    padding-top: 188px;
+     padding-bottom: 188px;
 }
 
 .hero-title {
@@ -125,9 +127,11 @@ gap: 40px;}
     letter-spacing: 0.02em;
     color: var(--main-title-color);
     text-align: center;
+/*------ширина текста заголовка------*/
+    max-width: 496px;
 }
-
-/*------button-index------*/.hero-btn {
+/*------button-index------*/
+.hero-btn {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -136,6 +140,15 @@ gap: 40px;}
     letter-spacing: 0.04em;
     color: var(--main-title-color);
     background: var(--main-background-color);
+    cursor: pointer;
+/*-----для можливості центрувати кнопку через властивість margin*/
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    /*для вимкнення стандартного оформлення кнопки*/
+    border: none;
+    background-color:var(--main-background-color);
+    border-radius: 4px;
     cursor: pointer;
 }
 
