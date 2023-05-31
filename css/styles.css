@@ -270,9 +270,13 @@ border-radius: 0px 0px 4px 4px;
 
 .footer {
     background: var(--main-text-color);
+    padding-top: 100px;
+     padding-bottom: 100px;
        }
 
+.logo{
 
+}margin-bottom: 16px;
 .logotype {
 
    font-family: 'Raleway',
@@ -289,6 +293,7 @@ border-radius: 0px 0px 4px 4px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-logo-color);
+    max-width: 264px;
 }
 
 /*----------button-portfolio-----------*/
