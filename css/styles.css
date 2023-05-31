@@ -75,15 +75,20 @@ padding-left: 15px;
 padding-right: 15px;
 
 margin: 0px;
+width: 1158px;
 }
 
 .header-navigation{
     display: flex;
-    align-items: center;}
+    align-items: center;
+    gap: 40px;
+    
+}
 
 .group-list{
 display: flex;
-gap: 40px;}
+padding: 24px; 0px;
+}
 
 
 .header-menu{
@@ -276,8 +281,10 @@ border-radius: 0px 0px 4px 4px;
 
 .logo{
     margin-bottom: 16px;
-    display: inline-block;}
-    
+    display: inline-block;
+margin-right: 76px;
+}
+
 .logotype {
 
    font-family: 'Raleway',
@@ -339,6 +346,19 @@ color: var(--main-content-color);
 text-align: center;
 
 }
+
+/*-----header-portfolio-------------*/
+.portfolio-header{
+    border-bottom: 1px; solid: #e7e9fc;
+    
+}
+.header-box{
+    display: flex;
+
+
+}
+
+
 /*-----portfolio h2--*/
 .list-work{
         font-size: 20px;
