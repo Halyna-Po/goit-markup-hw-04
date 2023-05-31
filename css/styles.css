@@ -275,8 +275,10 @@ border-radius: 0px 0px 4px 4px;
        }
 
 .logo{
+    margin-bottom: 16px;
+    display: inline-block;
 
-}margin-bottom: 16px;
+}
 .logotype {
 
    font-family: 'Raleway',
