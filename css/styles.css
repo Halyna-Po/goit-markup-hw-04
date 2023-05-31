@@ -218,7 +218,8 @@ gap: 40px;}
         letter-spacing: 0.02em;
         color: var(--main-text-color);
         text-transform: capitalize;
-        margin-bottom: 72px;}
+        margin-bottom: 72px;
+    }
         .foto-list{
             /*-------розміщення-по-горизонталі-в-рядок*/
             display: flex;
@@ -233,6 +234,7 @@ gap: 40px;}
 /*------------четверта секция---------------*/
 
 .people {background-color:var(--main-logo-color);
+    padding: 120px 0
 }
 .team {
     text-align: center;
@@ -243,11 +245,25 @@ font-weight: 600;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
     background-color: var(--main-title-color);
+/*---відступ між заголовком та параграфом----*/
+    margin-bottom: 72px;
 }
-/*---цвет фона фoто----*/
+
+.list-item{
+    gap: 24px;
+    display: flex;
+}
+
 
 .team-list{
+    /*---цвет фона фoто----*/
     background-color:var(--main-title-color);
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
+   
+}
+.job-title{
+    padding: 32px; 16px;
 }
 
 /*---------footer-----------*/
@@ -313,6 +329,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--main-content-color);
+
+text-align: center;
+
 }
 /*-----portfolio h2--*/
 .list-work{
@@ -331,13 +350,13 @@ img{
  padding-top: 120px;
  padding-bottom: 120px;
 }
-.list-item{
+.work-strategy{
 
     display: flex;
     /*-----визначення розмірів відступів між елементами списку*/
     gap: 24px;
 }
-.team-list{
+.list-work{
 /*--Для першого елементу списку в класі заданий стиль width: calc((100% - 72px) / 4);
     для визначення ширини пункту списку (від загальної ширини екрану віднімаємо суму відступів між пунктами і ділимо це на кількість пунктів списку) (можна також використовувати width calc((100% - 3 * 24px) / 4) або flex-basis: calc((100% - 3 * 24px) / 4) або flex-basis: calc((100% - 72px) / 4))*/
     width: calc((100% - 72px) / 4);
@@ -345,6 +364,6 @@ img{
 .title-list{
     /*----визначення відступу між заголовком і параграфом*/
     margin-bottom: 8px;
+    text-align: center;
 }
 
-/*---------3
