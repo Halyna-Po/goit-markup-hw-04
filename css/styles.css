@@ -61,21 +61,21 @@ ul {
     text-transform: uppercase;
     color: var(--main-text-color);}
     
-1px solid #e7e9fc;
+
     /*---header-menu---*/
-        border-bottom: 1px solid #e7e9fc
+                  #e7e9fc
 .header-boss{
-    border-bottom: 1px; solidcolor:#e7e9fc;
+    border-bottom: 1px solid var(--main-info-color);
 }
-.boss-conteiner{
-    display: flex;
+.boss-container{ 
+    display:flex;
 }
 .container{
     width: 1158px;
 padding-left: 15px; 
 padding-right: 15px;
 
-margin: 0px;
+margin: 0px auto;
 width: 1158px;
 }
 
@@ -100,11 +100,10 @@ padding: 24px; 0px;
     color: var(--main-text-color);
     text-decoration: none;
           padding-top: 24px;
-          padding-bottom: 24px;}
-
-    .menu-list{
-   
-    }
+          padding-bottom: 24px;
+        gap: 40px;
+        }
+        
 
 .header-menu:hover {
     color: var(--main-button-color);
@@ -269,7 +268,7 @@ border-radius: 0px 0px 4px 4px;
    
 }
 .job-title{
-    padding: 32px; 16px;
+    padding: 32px 16px
 }
 
 /*---------footer-----------*/
@@ -292,7 +291,7 @@ margin-right: 76px;
     sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line: height 1.17;
+    line-height:1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--main-logo-color);
@@ -372,7 +371,7 @@ border-radius: 4px;
         color:var(--main-text-color);
 }
 
-.team-list-item{
+.title-list-item{
 
 font-size: 16px;
 line-height: 1.5;
@@ -385,7 +384,7 @@ text-align: center;
 
 /*-----header-portfolio-------------*/
 .portfolio-header{
-    border-bottom: 1px; solid: #e7e9fc;
+    border-bottom: 1px solid var(--main-info-color);
     
 }
 .header-box{
