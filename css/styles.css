@@ -65,11 +65,11 @@ ul {
     /*---header-menu---*/
                   #e7e9fc
 .header-boss{
-    border-bottom: 1px solid  #E7E9FC
+    border-bottom: 1px solid #E7E9FC;
 }
 .boss-container{ 
     display:flex;
-}
+} 
 .container{
     width: 1158px;
 padding-left: 15px; 
@@ -89,9 +89,10 @@ width: 1158px;
 .group-list{
 display: flex;
 padding: 24px 0px;
+gap: 40px
 }
 .menu-list{
-gap: 40px;
+
 }
 
 .header-menu{
@@ -103,7 +104,7 @@ gap: 40px;
     text-decoration: none;
           padding-top: 24px;
           padding-bottom: 24px;
-        gap: 40px;
+       
         }
         
 
@@ -123,7 +124,7 @@ gap: 40px;
 
 .contact-group{
     display: flex;
-    gap: 40px;
+    gap: 40px
 }
 .contact-list {
     font-size: 16px;
