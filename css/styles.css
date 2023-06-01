@@ -72,13 +72,12 @@ ul {
 .boss-container{ 
     display:flex;
 } 
-.container{
+.container {
     width: 1158px;
 padding-left: 15px; 
 padding-right: 15px;
 
 margin: 0px auto;
-width: 1158px;
 border-bottom: 1px solid #e7e9fc;
 }
 
