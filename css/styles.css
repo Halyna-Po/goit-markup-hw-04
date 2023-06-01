@@ -65,7 +65,7 @@ ul {
     /*---header-menu---*/
                   #e7e9fc
 .header-boss{
-    border-bottom: 1px solid var(--main-info-color);
+    border-bottom: 1px solid  #E7E9FC
 }
 .boss-container{ 
     display:flex;
@@ -88,9 +88,11 @@ width: 1158px;
 
 .group-list{
 display: flex;
-padding: 24px; 0px;
+padding: 24px 0px;
 }
-
+.menu-list{
+gap: 40px;
+}
 
 .header-menu{
   font-weight: 500;
