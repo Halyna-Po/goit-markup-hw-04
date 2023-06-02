@@ -226,20 +226,48 @@ gap: 40px
         letter-spacing: 0.02em;
         color: var(--main-text-color);
         list-style: none;
-
         font-size: 20px;
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: var(--main-text-color);
             /*----визначення відступу між заголовком і параграфом*/
                 margin-bottom: 8px;
+
+                
 }
 .title-list-item {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--main-content-color);
+        color: var(--main-content-color); 
 }
+
+.title-team{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+        list-style: none;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+        /*----визначення відступу між заголовком і параграфом*/
+        margin-bottom: 8px;
+        text-align: center;
+}
+.group-paragraf{
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--main-content-color);
+        text-align: center;
+
+
+}
+
+
 
 /*-------третя секция------*/
 .only-foto{
