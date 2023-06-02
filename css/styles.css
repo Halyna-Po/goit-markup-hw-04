@@ -97,9 +97,6 @@ display: flex;
 padding: 24px 0px;
 gap: 40px
 }
-.menu-list{
-
-}
 
 .header-menu{
   font-weight: 500;
@@ -255,14 +252,14 @@ gap: 40px
         color: var(--main-text-color);
         /*----визначення відступу між заголовком і параграфом*/
         margin-bottom: 8px;
-        text-align: center;
+       text-align: center;
 }
 .group-paragraf{
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--main-content-color);
-        text-align: center;
+       text-align: center;
 
 
 }
