@@ -51,7 +51,10 @@ ul {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color:var(--main-background-color);
-        margin-right: 76px;
+        
+        display: inline-block;
+            margin-right: 76px;
+        
         }
 
 .logo-studio{
@@ -76,15 +79,15 @@ ul {
     width: 1158px;
 padding-left: 15px; 
 padding-right: 15px;
-
 margin: 0px auto;
-border-bottom: 1px solid #e7e9fc;
+align-items: center;
+
 }
 
 .header-navigation{
     display: flex;
     align-items: center;
-    gap: 40px;
+   
     
     
 }
@@ -123,8 +126,7 @@ gap: 40px
 /*---adress---*/
 .address{
     font-style: normal;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-left: auto;
 }
 
 .contact-group{
@@ -162,6 +164,8 @@ gap: 40px
     letter-spacing: 0.02em;
     color: var(--main-title-color);
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 /*------ширина текста заголовка------*/
     max-width: 496px;
 }
@@ -185,6 +189,8 @@ gap: 40px
     background-color:var(--main-background-color);
     border-radius: 4px;
     cursor: pointer;
+    margin-left: auto;
+        margin-right: auto;
 }
 
 .hero-btn:hover {
@@ -220,6 +226,13 @@ gap: 40px
         letter-spacing: 0.02em;
         color: var(--main-text-color);
         list-style: none;
+
+        font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--main-text-color);
+            /*----визначення відступу між заголовком і параграфом*/
+                margin-bottom: 8px;
 }
 .title-list-item {
         font-size: 16px;
@@ -266,7 +279,6 @@ font-weight: 600;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
-    background-color: var(--main-title-color);
 /*---відступ між заголовком та параграфом----*/
     margin-bottom: 72px;
 }
@@ -295,12 +307,18 @@ border-radius: 0px 0px 4px 4px;
     padding-top: 100px;
      padding-bottom: 100px;
        }
-
-.logo {
-    margin-bottom: 16px;
-    display: inline-block;
-margin-right: 76px;
-}
+       .logofoot{font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--main-background-color);
+    
+        display: inline-block;
+       
+        margin-bottom: 16px;
+       }
 
 .logotype {
 
@@ -377,27 +395,7 @@ border-radius: 4px;
  .headliner-box{
     padding: 32px 16px;
     border: 1px solid var(--main-info-color);
-    border-top: none;
-
-
- }
-.title-list{
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color:var(--main-text-color);
-}
-
-.title-list-item{
-
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--main-content-color);
-
-text-align: center;
-
-}
+    border-top: none;}
 
 /*-----header-portfolio-------------*/
 .portfolio-header{
@@ -413,6 +411,7 @@ text-align: center;
 
 /*-----portfolio h2--*/
 .list-work{
+    font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -436,14 +435,6 @@ img{
     gap: 24px;
 }
 .list-work{
-/*--Для першого елементу списку в класі заданий стиль width: calc((100% - 72px) / 4);
-    для визначення ширини пункту списку (від загальної ширини екрану віднімаємо суму відступів між пунктами і ділимо це на кількість пунктів списку) (можна також використовувати width calc((100% - 3 * 24px) / 4) або flex-basis: calc((100% - 3 * 24px) / 4) або flex-basis: calc((100% - 72px) / 4))*/
-    width: calc((100% - 72px) / 4);
-    
-}
-.title-list{
-    /*----визначення відступу між заголовком і параграфом*/
-    margin-bottom: 8px;
-    text-align: center;
+
 }
 
