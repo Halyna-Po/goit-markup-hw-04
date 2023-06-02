@@ -410,15 +410,16 @@ border-radius: 4px;
 
 
 /*-----portfolio h2--*/
-.list-work{
+.work-text{
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color:var(--main-text-color);
         margin-bottom: 8px;
-        
         width: calc((100% - 72px) / 4);
+
+        
 
 }
 /*-----img --*/
@@ -436,4 +437,11 @@ img{
     /*-----визначення розмірів відступів між елементами списку*/
     gap: 24px;
 }
+.list-work{
 
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color:var(--main-text-color);
+margin-bottom: 8px;}
