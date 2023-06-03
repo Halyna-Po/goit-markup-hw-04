@@ -94,7 +94,7 @@ align-items: center;
 
 .group-list{
 display: flex;
-padding: 24px 0px;
+
 gap: 40px
 }
 
@@ -165,6 +165,7 @@ gap: 40px
     margin-right: auto;
 /*------ширина текста заголовка------*/
     max-width: 496px;
+    margin-bottom: 48px;
 }
 /*------button-index------*/
 .hero-btn {
@@ -436,12 +437,12 @@ border-radius: 4px;
 
 /*-----portfolio h2--*/
 .work-text{
-    font-weight: 500;
+  
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color:var(--main-text-color);
-        margin-bottom: 8px;
+     
         width: calc((100% - 72px) / 4);
 
         
