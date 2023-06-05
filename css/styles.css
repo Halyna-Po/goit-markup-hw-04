@@ -6,6 +6,7 @@
     --main-info-color:#E7E9FC;
     --main-background-color:#4D5AE5;
     --main-button-color: #404BBF;
+    --color-icons-color:#8e8f99;
     
  }
  body {
@@ -542,7 +543,9 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color:var(--main-text-color);
 margin-bottom: 8px;}
+
 /*------вторая-секция+иконки---*/
+
 .icon{
     display: flex;
     align-items: center;
@@ -553,3 +556,46 @@ margin-bottom: 8px;}
     margin-bottom: 8px;
 
 }
+/*------пятая-секция+иконки---*/
+.clients{
+    padding-top: 120px;
+     padding-bottom: 120px;
+
+}
+.title-clients{
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--main-text-color);
+    margin-bottom: 72px;
+    }
+    .company{
+        display: flex;
+        gap: 24px;
+
+    }
+    .clients-list{
+        width: calc((100% - 120px) / 6);
+        height: 88px;
+
+    }
+    .clients-link{
+        width: 100%;
+        height: 100%;
+        border: 1px solid #8e8f99;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:var(--color-icons-color);
+    }
+        .clients-link :hover{
+            border-color: #404bbf;
+            color: #404bbf;
+        }
+    .clients-link :focus{
+         border-color: #404bbf;
+  color: #404bbf;
+                }
+                .clients-icons{
+                fill: currentColor;
+                }
