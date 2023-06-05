@@ -306,7 +306,7 @@ button{
 .network{
     width: 40px;
     height: 40px; 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .social{
    width: 100%;
@@ -316,6 +316,7 @@ border-radius:50%;
 display: flex;
 align-items: center;
 justify-content: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social:hover{
     background-color: #404bbf;
@@ -357,10 +358,8 @@ justify-content: center;
     width: calc((100% - 48px) / 3);
         }
 /*------------четверта секция---------------*/
-.people-box{
-    padding-top: 32px;
- padding-bottom: 32px;
-}
+
+
 .people {background-color:var(--main-logo-color);
     padding: 120px 0
 }
