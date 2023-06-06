@@ -399,6 +399,14 @@ border-radius: 0px 0px 4px 4px;
 }
 
 /*---------footer-----------*/
+.footer-box{
+    display: flex;
+    align-items: baseline;
+    
+}
+.logo-paragraf-box{
+margin-right: 120px;
+}
 
 .footer {
     background: var(--main-text-color);
@@ -436,6 +444,50 @@ border-radius: 0px 0px 4px 4px;
     color: var(--main-logo-color);
     max-width: 264px;
 }
+
+.social-foot{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-title-color);
+margin-bottom: 16px;
+}
+.social-net-foot{
+    display: flex;
+    gap: 16px;
+}
+
+.network-foot{
+    width: 40px;
+    height: 40px;
+}
+.social-foot-link{
+    width: 100%;
+    height: 100%;
+    background-color:var(--main-background-color);
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-foot-link:hover{
+    background-color: #31d0aa;
+cursor: pointer;
+}
+.social-foot-link:focus {
+    background-color: #31d0aa;
+    cursor: pointer;
+}
+.network-icon-foot{
+    fill:#f4f4fd;
+}
+
+
+
+
+
+
 /*----------portfolio-----------*/
 .apps{
     padding-top: 96px;
