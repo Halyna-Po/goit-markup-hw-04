@@ -478,6 +478,7 @@ cursor: pointer;
 .social-foot-link:focus {
     background-color: #31d0aa;
     cursor: pointer;
+    transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .network-icon-foot{
     fill:#f4f4fd;
@@ -640,13 +641,16 @@ margin-bottom: 8px;}
         justify-content: center;
         color:var(--color-icons-color);
     }
-        .clients-link :hover{
+        .clients-link:hover{
             border-color: #404bbf;
             color: #404bbf;
+            cursor: pointer;
         }
-    .clients-link :focus{
+    .clients-link:focus{
          border-color: #404bbf;
   color: #404bbf;
+cursor: pointer;
+
                 }
                 .clients-icons{
                 fill: currentColor;
