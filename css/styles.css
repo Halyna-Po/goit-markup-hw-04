@@ -111,6 +111,7 @@ gap: 40px
     text-decoration: none;
           padding-top: 24px;
           padding-bottom: 24px;
+        color: #404bbf;
         }
 
 .header-menu:hover {
@@ -130,7 +131,7 @@ gap: 40px
     background-color: #404bbf;
     border-radius: 2px;
     width: 100%;
-    
+
 }
 
 /*---adress---*/
