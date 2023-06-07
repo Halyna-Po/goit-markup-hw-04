@@ -496,11 +496,11 @@ margin-bottom: 16px;
 }
 .social-foot-link:hover{
     background-color: #31d0aa;
-cursor: pointer;
+
 }
 .social-foot-link:focus {
     background-color: #31d0aa;
-    cursor: pointer;
+   
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .network-icon-foot{
@@ -721,7 +721,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #e7e9fc;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
-    cursor: pointer;
+    
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn:hover{
